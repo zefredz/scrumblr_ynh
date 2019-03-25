@@ -7,7 +7,6 @@ Type=simple
 User=__APP__
 Group=__APP__
 WorkingDirectory=__FINALPATH__
-ExecStartPre=__NODEJS__
 Environment="PATH=__ENV_PATH__"
 ExecStart=__NODE__/node server.js --port __PORT__ --baseurl __BASEURL__
 Restart=always
