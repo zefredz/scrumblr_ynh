@@ -77,7 +77,7 @@ ynh_install_nodejs 6.2.0
 # Install dependency to convert tracks to a readable format for the browser
 #=================================================
 sudo apt-get update
-sudo apt-get -y -qq install redis-server php-redis
+sudo apt-get -y -qq install redis-server
 
 #=================================================
 # CREATE DEDICATED USER
